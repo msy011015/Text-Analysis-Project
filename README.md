@@ -10,19 +10,19 @@ My analysis consists of two major parts: the text and the film review, with the 
 
 In the first phase of text processing, I completed the creation of a dictionary, processed the text, and obtained a frequency-based dictionary, which facilitated the subsequent analysis of the vocabulary. I actually met problems when I tried to open the url of the data source as the error indicated that there was a problem with the SSL certificate veification. I also got UnicodeDecodeError at the beginnig. Problems like this are technical, but ChatGPT helped me to solve the problem:
 
-<img src="images/ssl prob.png" width="400" alt="ssl problem" style="display:block; margin:10px auto;"/>
+<img src="images/ssl prob.png" width="700" alt="ssl problem" style="display:block; margin:10px auto;"/>
 
-<img src="images/UnicodeDecodeError.png" width="400" alt="UnicodeDecodeError" style="display:block; margin:10px auto;"/>
+<img src="images/UnicodeDecodeError.png" width="700" alt="UnicodeDecodeError" style="display:block; margin:10px auto;"/>
 
 In the formal analysis, my primary objective was to gain a general comprehension of the text, so I consulted ChatGPT to view the typical text analysis tasks. I determined the most prevalent words and computed the type taken ratio (TTR), which assesses the variety of words used in a text. I originally wanted to do a readability analysis. However, since this is children's literature and there are no other comparable works, a readability analysis makes little sense.
 
-<img src="images/options for summary statistics.png" width="400" alt="Summary stats" style="display:block; margin:10px auto;"/>
+<img src="images/options for summary statistics.png" width="700" alt="Summary stats" style="display:block; margin:10px auto;"/>
 
-<img src="images/TTR.png" width="400" alt="TTR" style="display:block; margin:10px auto;"/>
+<img src="images/TTR.png" width="700" alt="TTR" style="display:block; margin:10px auto;"/>
 
 I then began to learn NLTK and used ChatGPT to help me understand what NLTK could accomplish:
 
-<img src="NLTK.png" width="400" alt="NLTK" style="display:block; margin:10px auto;"/>
+<img src="NLTK.png" width="700" alt="NLTK" style="display:block; margin:10px auto;"/>
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
