@@ -24,13 +24,19 @@ I then began to learn NLTK and used ChatGPT to help me understand what NLTK coul
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
-<img src="explain pos tag.png" width="700" alt="ask ChatGPT for exlanation" style="display:block; margin:10px auto;"/>
-<img src="simplify the code.png" width="700" alt="simplify the code" style="display:block; margin:10px auto;"/>
+![ask ChatGPT for exlanation](images/explain pos tag.png)
+![simplify the code](images/simplify the code.png)
+
+<!-- <img src="explain pos tag.png" width="700" alt="ask ChatGPT for exlanation" style="display:block; margin:10px auto;"/>
+<img src="simplify the code.png" width="700" alt="simplify the code" style="display:block; margin:10px auto;"/> -->
 
 However, ChatGPT sometimes offers wrong answers. Therefore, it is very important to have a critical thinking. We need to use our abilities and knowledge to judge ChatGPT's suggestions and figure out how to better refine the solution, rather than just adopting it. Since our projects are relatively large, ChatGPT is often not well identified. We should ask for the new concepts in a general way to learn the concepts first, then trying to figure out how to apply them to our own programs. The following are examples of errors:
 
-<img src="wrong ans.png" width="700" alt="wrong answer" style="display:block; margin:10px auto;"/>
-<img src="wrong puc.png" width="700" alt="wrong puc" style="display:block; margin:10px auto;"/>
+![Wrong answer](images/wrong ans.png)
+![Wrong punctuation](images/wrong puc.png)
+
+<!-- <img src="wrong ans.png" width="700" alt="wrong answer" style="display:block; margin:10px auto;"/>
+<img src="wrong puc.png" width="700" alt="wrong punctuation" style="display:block; margin:10px auto;"/> -->
 
 After acquiring a basic comprehension of the text, I desired to compare *Alice's Adventures in Wonderland* to other works and identify similarities. Lewis Carroll, the author of *Alice's Adventures in Wonderland,* is one of the few authors who publishes both children's literature and some mathematical work, demonstrating both liberal and scientific thought. Therefore, I searched for other literary works by Carroll as well as mathematical works, as well as works by other authors who also belonged to children's literature and mathematical works, but who typically only concentrated on their respective disciplines. I wanted to determine if authors like Carroll, who are talented in different fields, might exhibit characteristics of one field that are typical of the other, i.e., write literature that is rational and mathematical work that is not entirely neutral. Initially, I intended to draw a graph of similarities, but I discovered that doing so would require a two-by-two comparison of each work and matching scores. Since the texts I selected were in completely different fields and differed significantly, I determined that it would not be meaningful to compare literary and mathematical works, so I abandoned that plan.
 
@@ -40,7 +46,8 @@ As I believed the work had been adapted into a film and there were no reader com
 
 I wrote an equation that generates reviews at random, calculates their sentiment score, and verifies whether they mention the original "novel." This will allow us to determine how readers feel about the story and the film adaptation. Here is an example for asking ChatGPT about the sentiment analysis using NLTK:
 
-<img src="images/NLTK sentiment movie.png" width="700" alt="using NLTK to do the sentiment analysis on movie" style="display:block; margin:10px auto;"/>
+![using NLTK to do the sentiment analysis on movie](images/NLTK sentiment movie.png)
+<!-- <img src="images/NLTK sentiment movie.png" width="700" alt="using NLTK to do the sentiment analysis on movie" style="display:block; margin:10px auto;"/> -->
 
 ## Part 3: Results
 
