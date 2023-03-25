@@ -26,44 +26,44 @@ I then began to learn NLTK and used ChatGPT to help me understand what NLTK coul
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
-<img src="explain pos tag.png" width="400" alt="ask ChatGPT for exlanation" style="display:block; margin:10px auto;"/>
+<img src="explain pos tag.png" width="700" alt="ask ChatGPT for exlanation" style="display:block; margin:10px auto;"/>
 
-<img src="simplify the code.png" width="400" alt="simplify the code" style="display:block; margin:10px auto;"/>
+<img src="simplify the code.png" width="700" alt="simplify the code" style="display:block; margin:10px auto;"/>
 
 However, ChatGPT sometimes offers wrong answers. Therefore, it is very important to have a critical thinking. We need to use our abilities and knowledge to judge ChatGPT's suggestions and figure out how to better refine the solution, rather than just adopting it. Since our projects are relatively large, ChatGPT is often not well identified. We should ask for the new concepts in a general way to learn the concepts first, then trying to figure out how to apply them to our own programs. The following are examples of errors:
 
-<img src="wrong ans.png" width="400" alt="wrong answer" style="display:block; margin:10px auto;"/>
+<img src="wrong ans.png" width="700" alt="wrong answer" style="display:block; margin:10px auto;"/>
 
-<img src="wrong puc.png" width="400" alt="wrong puc" style="display:block; margin:10px auto;"/>
+<img src="wrong puc.png" width="700" alt="wrong puc" style="display:block; margin:10px auto;"/>
 
 After acquiring a basic comprehension of the text, I desired to compare *Alice's Adventures in Wonderland* to other works and identify similarities. Lewis Carroll, the author of *Alice's Adventures in Wonderland,* is one of the few authors who publishes both children's literature and some mathematical work, demonstrating both liberal and scientific thought. Therefore, I searched for other literary works by Carroll as well as mathematical works, as well as works by other authors who also belonged to children's literature and mathematical works, but who typically only concentrated on their respective disciplines. I wanted to determine if authors like Carroll, who are talented in different fields, might exhibit characteristics of one field that are typical of the other, i.e., write literature that is rational and mathematical work that is not entirely neutral. Initially, I intended to draw a graph of similarities, but I discovered that doing so would require a two-by-two comparison of each work and matching scores. Since the texts I selected were in completely different fields and differed significantly, I determined that it would not be meaningful to compare literary and mathematical works, so I abandoned that plan.
 
 As I believed the work had been adapted into a film and there were no reader comments below the text, I wanted to read some film reviews to gain a better comprehension of the work. Surprisingly, ChatGPT offered me an extra method to remove stopwords, which is easier than what I did:
 
-<img src="images/nltk-stopwords.png" width="400" alt="removing stopwords by nltk" style="display:block; margin:10px auto;"/>
+<img src="images/nltk-stopwords.png" width="700" alt="removing stopwords by nltk" style="display:block; margin:10px auto;"/>
 
 I wrote an equation that generates reviews at random, calculates their sentiment score, and verifies whether they mention the original "novel." This will allow us to determine how readers feel about the story and the film adaptation. Here is an example for asking ChatGPT about the sentiment analysis using NLTK:
 
-<img src="images/NLTK sentiment movie.png" width="400" alt="using NLTK to do the sentiment analysis on movie" style="display:block; margin:10px auto;"/>
+<img src="images/NLTK sentiment movie.png" width="700" alt="using NLTK to do the sentiment analysis on movie" style="display:block; margin:10px auto;"/>
 
 ## Part 3: Results
 
 Through the analysis of high frequency words, I found that *Alice's Adventrues in Wonderland* does use simple words as children's literature. However, I was expecting that "pos" should be the majority in the sensitivity analysis, but in fact most of them are defined as neutral, which may be related to Correll's own proficiency in mathematics, and he may tend to use neutral descriptions.
 
-<img src="images/common words.png" width="400" alt="top 10 common words" style="display:block; margin:10px auto;"/>
-<img src="images/common adjs and sensitive.png" width="400" alt="common adjs and sensitive" style="display:block; margin:10px auto;"/>
+<img src="images/common words.png" width="700" alt="top 10 common words" style="display:block; margin:10px auto;"/>
+<img src="images/common adjs and sensitive.png" width="700" alt="common adjs and sensitive" style="display:block; margin:10px auto;"/>
 
 By analyzing textual similarity, we can see that *Alice's Adventures in Wonderland* and Carroll's other literary works have similarity scores ranging from 39 to 48. This suggests that his literary works may share common language usage or themes. Intriguingly, Carroll's literary works are more similar to other children's literature, whereas his mathematical works have lower scores. This disparity may be due to the fact that the themes of mathematical works typically involve more diverse fields of study; however, additional research is required to confirm this hypothesis.
 
-<img src="images/matching scores.png" width="400" alt="matching scores" style="display:block; margin:10px auto;"/>
+<img src="images/matching scores.png" width="700" alt="matching scores" style="display:block; margin:10px auto;"/>
 
 In the movie reviews analysis, I was able to read reviews of the book and the movie. I found that most of the viewers had read the book and mentioned the original work. Most of the reviews for the movie are positive, such as "The script has its amusing moments, and the songs and score are sweet and memorable;""There's some added dancing and frolicking about, and Alice seems to be enjoying herself more than she usually does on screen." The film incorporates songs, more like a musical, but I found that the audience had some dissatisfaction with this adaptation. Reviews mentioned "uneven in pace and a little too short, and having one or two tacky costumes(ie. Doormouse)," "these songs are tack-ons. fillers", etc. Most of the audience said the book was better, and the movie was interesting but perhaps the new music added to it made the audience uncomfortable. Here are 5 random movie reviews:
 
-<img src="images/review1.png" width="400" alt="review1" style="display:block; margin:10px auto;"/>
-<img src="images/review2.png" width="400" alt="review2" style="display:block; margin:10px auto;"/>
-<img src="images/review3.png" width="400" alt="review3" style="display:block; margin:10px auto;"/>
-<img src="images/review4.png" width="400" alt="review4" style="display:block; margin:10px auto;"/>
-<img src="images/review5.png" width="400" alt="review5" style="display:block; margin:10px auto;"/>
+<img src="images/review1.png" width="700" alt="review1" style="display:block; margin:10px auto;"/>
+<img src="images/review2.png" width="700" alt="review2" style="display:block; margin:10px auto;"/>
+<img src="images/review3.png" width="700" alt="review3" style="display:block; margin:10px auto;"/>
+<img src="images/review4.png" width="700" alt="review4" style="display:block; margin:10px auto;"/>
+<img src="images/review5.png" width="700" alt="review5" style="display:block; margin:10px auto;"/>
 
 ## Part 4: Reflection
 
