@@ -22,7 +22,7 @@ In the formal analysis, my primary objective was to gain a general comprehension
 
 I then began to learn NLTK and used ChatGPT to help me understand what NLTK could accomplish:
 
-<img src="NLTK.png" width="700" alt="NLTK" style="display:block; margin:10px auto;"/>
+<img src="NLTK.png" width="300" alt="NLTK" style="display:block; margin:10px auto;"/>
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
@@ -51,6 +51,7 @@ I wrote an equation that generates reviews at random, calculates their sentiment
 Through the analysis of high frequency words, I found that *Alice's Adventrues in Wonderland* does use simple words as children's literature. However, I was expecting that "pos" should be the majority in the sensitivity analysis, but in fact most of them are defined as neutral, which may be related to Correll's own proficiency in mathematics, and he may tend to use neutral descriptions.
 
 <img src="images/common words.png" width="700" alt="top 10 common words" style="display:block; margin:10px auto;"/>
+
 <img src="images/common adjs and sensitive.png" width="700" alt="common adjs and sensitive" style="display:block; margin:10px auto;"/>
 
 By analyzing textual similarity, we can see that *Alice's Adventures in Wonderland* and Carroll's other literary works have similarity scores ranging from 39 to 48. This suggests that his literary works may share common language usage or themes. Intriguingly, Carroll's literary works are more similar to other children's literature, whereas his mathematical works have lower scores. This disparity may be due to the fact that the themes of mathematical works typically involve more diverse fields of study; however, additional research is required to confirm this hypothesis.
