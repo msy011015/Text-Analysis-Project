@@ -19,12 +19,12 @@ In the formal analysis, my primary objective was to gain a general comprehension
 <img src="images/TTR.png" width="700" alt="TTR" style="display:block; margin:10px auto;"/>
 
 I then began to learn NLTK and used ChatGPT to help me understand what NLTK could accomplish:
-![NLTK](images/NLTK.png)
+![NLTK](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/NLTK.png)
 <!-- <img src="NLTK.png" width="700" alt="NLTK" style="display:block; margin:10px auto;"/> -->
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
-![ask ChatGPT for exlanation](images/explain pos tag.png)
+![explain pos tag](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/explain%20pos%20tag.png)
 ![simplify the code](images/simplify the code.png)
 
 <!-- <img src="explain pos tag.png" width="700" alt="ask ChatGPT for exlanation" style="display:block; margin:10px auto;"/>
@@ -32,8 +32,8 @@ I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted
 
 However, ChatGPT sometimes offers wrong answers. Therefore, it is very important to have a critical thinking. We need to use our abilities and knowledge to judge ChatGPT's suggestions and figure out how to better refine the solution, rather than just adopting it. Since our projects are relatively large, ChatGPT is often not well identified. We should ask for the new concepts in a general way to learn the concepts first, then trying to figure out how to apply them to our own programs. The following are examples of errors:
 
-![Wrong answer](images/wrong ans.png)
-![Wrong punctuation](images/wrong puc.png)
+![images/wrong ans.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/wrong%20ans.png)
+![images/wrong puc.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/wrong%20puc.png)
 
 <!-- <img src="wrong ans.png" width="700" alt="wrong answer" style="display:block; margin:10px auto;"/>
 <img src="wrong puc.png" width="700" alt="wrong punctuation" style="display:block; margin:10px auto;"/> -->
@@ -46,7 +46,7 @@ As I believed the work had been adapted into a film and there were no reader com
 
 I wrote an equation that generates reviews at random, calculates their sentiment score, and verifies whether they mention the original "novel." This will allow us to determine how readers feel about the story and the film adaptation. Here is an example for asking ChatGPT about the sentiment analysis using NLTK:
 
-![using NLTK to do the sentiment analysis on movie](images/NLTK sentiment movie.png)
+![using NLTK to do the sentiment analysis on movie]([images/NLTK sentiment movie.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/NLTK%20sentiment%20movie%20.png))
 <!-- <img src="images/NLTK sentiment movie.png" width="700" alt="using NLTK to do the sentiment analysis on movie" style="display:block; margin:10px auto;"/> -->
 
 ## Part 3: Results
