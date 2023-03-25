@@ -59,11 +59,11 @@ By analyzing textual similarity, we can see that *Alice's Adventures in Wonderla
 
 In the movie reviews analysis, I was able to read reviews of the book and the movie. I found that most of the viewers had read the book and mentioned the original work. Most of the reviews for the movie are positive, such as "The script has its amusing moments, and the songs and score are sweet and memorable;""There's some added dancing and frolicking about, and Alice seems to be enjoying herself more than she usually does on screen." The film incorporates songs, more like a musical, but I found that the audience had some dissatisfaction with this adaptation. Reviews mentioned "uneven in pace and a little too short, and having one or two tacky costumes(ie. Doormouse)," "these songs are tack-ons. fillers", etc. Most of the audience said the book was better, and the movie was interesting but perhaps the new music added to it made the audience uncomfortable. Here are 5 random movie reviews:
 
-<img src="images/review1.png" width="700" alt="review1" style="display:block; margin:10px auto;"/>
-<img src="images/review2.png" width="700" alt="review2" style="display:block; margin:10px auto;"/>
-<img src="images/review3.png" width="700" alt="review3" style="display:block; margin:10px auto;"/>
-<img src="images/review4.png" width="700" alt="review4" style="display:block; margin:10px auto;"/>
-<img src="images/review5.png" width="700" alt="review5" style="display:block; margin:10px auto;"/>
+<img src="images/review1.png" width="800" alt="review1" style="display:block; margin:10px auto;"/>
+<img src="images/review2.png" width="800" alt="review2" style="display:block; margin:10px auto;"/>
+<img src="images/review3.png" width="800" alt="review3" style="display:block; margin:10px auto;"/>
+<img src="images/review4.png" width="800" alt="review4" style="display:block; margin:10px auto;"/>
+<img src="images/review5.png" width="800" alt="review5" style="display:block; margin:10px auto;"/>
 
 ## Part 4: Reflection
 
