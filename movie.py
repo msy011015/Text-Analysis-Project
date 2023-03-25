@@ -13,6 +13,7 @@ movie = ia.search_movie("Alice's Adventures in Wonderland")[0]
 # print(movie.movieID)
 # '0068190'
 
+
 def movie_review():
     """
     Returns a random movie review from the first 25 reviews.
@@ -58,7 +59,8 @@ def search_word(word):
         return f"The word '{word_to_search}' is present in the review."
     else:
         return f"The word '{word_to_search}' is not present in the review."
-    
+
+
 def main():
     review = movie_review()
     print(review)

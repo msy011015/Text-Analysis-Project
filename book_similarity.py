@@ -1,7 +1,6 @@
 import urllib.request
 import pickle
 import ssl
-
 from fuzzywuzzy import fuzz
 ssl._create_default_https_context = ssl._create_unverified_context
 
