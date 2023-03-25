@@ -19,8 +19,8 @@ In the formal analysis, my primary objective was to gain a general comprehension
 <img src="images/TTR.png" width="700" alt="TTR" style="display:block; margin:10px auto;"/>
 
 I then began to learn NLTK and used ChatGPT to help me understand what NLTK could accomplish:
-
-<img src="NLTK.png" width="700" alt="NLTK" style="display:block; margin:10px auto;"/>
+![NLTK](images/NLTK.png)
+<!-- <img src="NLTK.png" width="700" alt="NLTK" style="display:block; margin:10px auto;"/> -->
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
