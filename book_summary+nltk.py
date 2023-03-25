@@ -1,5 +1,4 @@
 from nltk.tag import pos_tag
-from nltk import PunktSentenceTokenizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import ssl
 import pickle
