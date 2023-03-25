@@ -11,24 +11,29 @@ My analysis consists of two major parts: the text and the film review, with the 
 In the first phase of text processing, I completed the creation of a dictionary, processed the text, and obtained a frequency-based dictionary, which facilitated the subsequent analysis of the vocabulary. I actually met problems when I tried to open the url of the data source as the error indicated that there was a problem with the SSL certificate veification. I also got UnicodeDecodeError at the beginnig. Problems like this are technical, but ChatGPT helped me to solve the problem:
 
 <img src="images/ssl prob.png" width="700" alt="ssl problem" style="display:block; margin:10px auto;"/>
+
 <img src="images/UnicodeDecodeError.png" width="700" alt="UnicodeDecodeError" style="display:block; margin:10px auto;"/>
 
 In the formal analysis, my primary objective was to gain a general comprehension of the text, so I consulted ChatGPT to view the typical text analysis tasks. I determined the most prevalent words and computed the type taken ratio (TTR), which assesses the variety of words used in a text. I originally wanted to do a readability analysis. However, since this is children's literature and there are no other comparable works, a readability analysis makes little sense.
 
 <img src="images/options for summary statistics.png" width="700" alt="Summary stats" style="display:block; margin:10px auto;"/>
+
 <img src="images/TTR.png" width="700" alt="TTR" style="display:block; margin:10px auto;"/>
 
 I then began to learn NLTK and used ChatGPT to help me understand what NLTK could accomplish:
+
 ![NLTK](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/NLTK.png)
 
 I chose sensitivity analysis, POS, and concordance for my analysis, and I wanted to understand the tone of the entire book as well as build a search function to facilitate my finding specific content. During the learning of the new tools, I asked ChatGPT for debugging. For the lines I can't understand, I would keep asking until I fully understand. ChatGPT also helps me improve/simplify my codes, which allows me to program in a effective way. Here are some examples:
 
 ![explain pos tag](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/explain%20pos%20tag.png)
+
 ![images/simplify the code.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/simplify%20the%20code.png)
 
 However, ChatGPT sometimes offers wrong answers. Therefore, it is very important to have a critical thinking. We need to use our abilities and knowledge to judge ChatGPT's suggestions and figure out how to better refine the solution, rather than just adopting it. Since our projects are relatively large, ChatGPT is often not well identified. We should ask for the new concepts in a general way to learn the concepts first, then trying to figure out how to apply them to our own programs. The following are examples of errors:
 
 ![images/wrong ans.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/wrong%20ans.png)
+
 ![images/wrong puc.png](https://github.com/msy011015/Text-Analysis-Project/blob/main/images/wrong%20puc.png)
 
 After acquiring a basic comprehension of the text, I desired to compare *Alice's Adventures in Wonderland* to other works and identify similarities. Lewis Carroll, the author of *Alice's Adventures in Wonderland,* is one of the few authors who publishes both children's literature and some mathematical work, demonstrating both liberal and scientific thought. Therefore, I searched for other literary works by Carroll as well as mathematical works, as well as works by other authors who also belonged to children's literature and mathematical works, but who typically only concentrated on their respective disciplines. I wanted to determine if authors like Carroll, who are talented in different fields, might exhibit characteristics of one field that are typical of the other, i.e., write literature that is rational and mathematical work that is not entirely neutral. Initially, I intended to draw a graph of similarities, but I discovered that doing so would require a two-by-two comparison of each work and matching scores. Since the texts I selected were in completely different fields and differed significantly, I determined that it would not be meaningful to compare literary and mathematical works, so I abandoned that plan.
@@ -56,9 +61,13 @@ By analyzing textual similarity, we can see that *Alice's Adventures in Wonderla
 In the movie reviews analysis, I was able to read reviews of the book and the movie. I found that most of the viewers had read the book and mentioned the original work. Most of the reviews for the movie are positive, such as "The script has its amusing moments, and the songs and score are sweet and memorable;""There's some added dancing and frolicking about, and Alice seems to be enjoying herself more than she usually does on screen." The film incorporates songs, more like a musical, but I found that the audience had some dissatisfaction with this adaptation. Reviews mentioned "uneven in pace and a little too short, and having one or two tacky costumes(ie. Doormouse)," "these songs are tack-ons. fillers", etc. Most of the audience said the book was better, and the movie was interesting but perhaps the new music added to it made the audience uncomfortable. Here are 5 random movie reviews:
 
 <img src="images/review1.png" width="800" alt="review1" style="display:block; margin:10px auto;"/>
+
 <img src="images/review2.png" width="800" alt="review2" style="display:block; margin:10px auto;"/>
+
 <img src="images/review3.png" width="800" alt="review3" style="display:block; margin:10px auto;"/>
+
 <img src="images/review4.png" width="800" alt="review4" style="display:block; margin:10px auto;"/>
+
 <img src="images/review5.png" width="800" alt="review5" style="display:block; margin:10px auto;"/>
 
 ## Part 4: Reflection
