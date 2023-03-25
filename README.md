@@ -67,10 +67,10 @@ In the movie reviews analysis, I was able to read reviews of the book and the mo
 
 ## Part 4: Reflection
 
-** 1. Profcess Perspective
+**1. Profcess Perspective**
 
 What I did well from a process standpoint was combine two types of data sources to analyze not only the work itself, but also to gather reviews of the work to determine how readers/viewers reacted. This project was difficult and I learned a great deal of new code in the process; when I didn't comprehend something, I looked to ChatGPT to explain it rather than blindly copying it. Due to my lack of technical expertise, I believe this endeavor is imperfect. In the segment of movie reviews, for instance, I can continue to investigate how to filter the most pertinent reviews and compare the strengths and weaknesses of various film adaptations for a more thorough analysis. At the outset of the project, I performed the analysis rather haphazardly and did not organize it rationally using the concept of framework. For instance, I tried out tools such as similarity, but they didn't really work for me and were ultimately purged.
 
-** 2. Learning Perspective
+**2. Learning Perspective**
 
 From a learning perspective, this project has improved my comprehension of the processing of various types of text and the application of extremely useful tools such as the Natural Language Toolkit. In addition, I learned how to utilize ChatGPT appropriately. Since this is a very large project with a great deal of back and forth, it is not possible to copy and paste all the code using ChatGPT. This was crucial, as it allowed me to practice communicating with ChatGPT in order to obtain the desired response and transform ChatGPT into a 24-hour teacher. I also discovered that ChatGPT doesn't always provide the right answers, and that it's important to have the ability to differentiate and modify on that basis ChatGPT offered to get better solutions. I wish I had read the questions I'm answering beforehand more carefully, as it would have provided me with a more comprehensive comprehension of the project and a sense of its overall structure, as opposed to focusing solely on its individual functions. This project taught me not only new knowledge and code, but also a new method of thinking and learning.
